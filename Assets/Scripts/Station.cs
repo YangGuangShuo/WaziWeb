@@ -11,8 +11,13 @@ public class Station : MonoBehaviour
     private GameObject mViewPhone;
     [SerializeField]
     private GameObject mCameraRoot;
-    [SerializeField]
-    private GameObject mBusObj;
+
+
+    private void Start()
+    {
+        
+    }
+
     public void OnPhoneBtn()
     {
         mViewPhone.SetActive(true);
@@ -32,8 +37,7 @@ public class Station : MonoBehaviour
 
     public void OnBusBtn()
     {
-        mBusObj.SetActive(true);
-        mBusObj.GetComponent<Animator>().Play("BusAnim");
+        FrontObjects.Instance.PlayBusFront();
         StartCoroutine(WaitTime(2, () =>
         {
             SceneManager.LoadScene("BusIn");
@@ -46,6 +50,4 @@ public class Station : MonoBehaviour
 
         callBack();
     }
-
-
 }

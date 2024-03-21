@@ -12,6 +12,7 @@ public class BusIn : MonoBehaviour
 
     public void OnGameBtn()
     {
+        mViewGame.SetActive(true);
         mViewGame.GetComponent<Animator>().Play("BGanim_2");
         StartCoroutine(WaitTime(1, () =>
         {

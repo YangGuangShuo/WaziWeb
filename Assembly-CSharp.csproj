@@ -65,6 +65,7 @@
     <Compile Include="Assets\Others\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\Scripts\Launch.cs" />
     <Compile Include="Assets\Others\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\Scripts\FrontObjects.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\BusTop.cs" />
     <Compile Include="Assets\Others\Joystick Pack\Examples\JoystickPlayerExample.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Assets\Scripts\BugScript.cs" />
     <Compile Include="Assets\Others\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Scripts\BusIn.cs" />
+    <Compile Include="Assets\Scripts\DontDestroy.cs" />
     <Compile Include="Assets\Others\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
   </ItemGroup>
   <ItemGroup>
